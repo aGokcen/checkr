@@ -1,0 +1,114 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #ffce00;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+}
+
+
+.btn-begin,
+.btn-begin:hover,
+.btn-begin:active {
+    color: #00ff80;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #007da7;
+}
+
+.btn-begin {
+  background-repeat: repeat-x;
+  background-image: linear-gradient(top, #009ED2 0%, #007DA7 100%);
+  ...
+}
+
+.btn-ttc:hover {
+  background-position: 0 -15px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 65px;
+}
+
+
+html {
+    height: 100%;
+}
+
+#checkr_logo_container {
+    width: 100%;
+}
+
+.icn {
+    width: 10%;
+    margin-left: 45%;
+}
+
+#checkr-motto {
+    text-align: center;
+}
+
+#login-zone {
+    background-color: #00ADF0;
+    height: 50%;
+}
+
+#login-window-container {
+    width: 100%;
+    height: 40%;
+}
+
+#login-window {
+    width: 20%;
+    margin-left: 40%;
+    background-color: #00f18b;
+    height: 100%;
+    border-color: #00F1AA;
+    border-radius: 20px;
+}
+
+#login-text {
+    height: 30%;
+    text-align: center;
+}
+
+#button-container-container {
+    width: 100%;
+}
+
+#button-container {
+    width: 10%;
+    margin-left: 45%;
+}
+
+.container > .content {
+        background-color: #fff;
+        padding: 20px;
+        margin: 0 -20px; 
+        -webkit-border-radius: 10px 10px 10px 10px;
+           -moz-border-radius: 10px 10px 10px 10px;
+                border-radius: 10px 10px 10px 10px;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+           -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+                box-shadow: 0 1px 2px rgba(0,0,0,.15);
+      }
+
+      .login-form {
+        margin-left: 65px;
+      }
+
+      legend {
+        margin-right: -50px;
+        font-weight: bold;
+          color: #404040;
+      }
+fieldset {
+    width: 80%;
+    margin-left: 10%;
+    vertical-align: middle;
+}
+
+
