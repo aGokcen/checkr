@@ -23,34 +23,40 @@
                 <div id="checkr_logo_container">
                     <img class="icn" src="img/arrow_down_white.png" alt="some">
                 </div>
-                <div id="checkr-name">
-                    <h1>Checkr</h1>
+                <div id="name-motto-container">
+                    <div id="checkr-name">
+                        <h1>Checkr</h1>
+                    </div>
+                    <div id="checkr-motto">
+                        <p>Check Yourself Before You Wreck Yourself</p>
+                    </div>
+                    <div id="motto-buffer"></div>
                 </div>
-                <div id="checkr-motto">
-                    <p>Check Yourself Before You Wreck Yourself</p>
-                </div>
+                
             </div>
             <div id="login-zone">
-                <div id="login-text">
-                    <h3>Enter your email username and password, and let's get checking!</h3>
-                </div>
+                <div id="login-text-buffer"></div>
                 <div id="login-window-container">
                     <div id="login-window">
-                        <form action="">
-                        <fieldset>
-                          <div class="control-group">
-                            <input type="text" placeholder="Email">
+                        <form role="form">
+                          <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
                           </div>
-                          <div class="control-group">
-                            <input type="password" placeholder="Password">
+                          <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                           </div>
-                          <button class="btn btn-begin" type="submit">Sign in</button>
-                        </fieldset>
-                      </form>
+                          <button type="submit" class="btn btn-default">Submit</button>
+                        </form>
                     </div>
                     
                 </div>
+                <div id="login-text">
+                    <h3>Enter your email username and password, and let's get checking!</h3>
+                </div>
             </div>
+          <div id="results-container"></div>
       </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>

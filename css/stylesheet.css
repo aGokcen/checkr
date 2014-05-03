@@ -1,7 +1,7 @@
 body {
     height: 100%;
     width: 100%;
-    background-color: #ffce00;
+    background-color: #1f6d02;
 }
 
 #container {
@@ -13,9 +13,9 @@ body {
 .btn-begin,
 .btn-begin:hover,
 .btn-begin:active {
-    color: #00ff80;
+    color: #123c03;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-    background-color: #007da7;
+    background-color: #ffb100;
 }
 
 .btn-begin {
@@ -58,21 +58,19 @@ html {
 
 #login-window-container {
     width: 100%;
-    height: 40%;
+
 }
 
 #login-window {
-    width: 20%;
-    margin-left: 40%;
-    background-color: #00f18b;
+    margin-left: 30%;
+    width: 40%;
     height: 100%;
-    border-color: #00F1AA;
-    border-radius: 20px;
 }
 
 #login-text {
-    height: 30%;
+    height: 15%;
     text-align: center;
+    top: 0px;
 }
 
 #button-container-container {
@@ -103,7 +101,7 @@ html {
       legend {
         margin-right: -50px;
         font-weight: bold;
-          color: #404040;
+        color: #404040;
       }
 fieldset {
     width: 80%;
@@ -112,3 +110,30 @@ fieldset {
 }
 
 
+
+#login-text-buffer {
+    height: 15%;
+}
+
+#results-container {
+
+}
+
+#header {
+    background-color: #ffce00;
+}
+
+#checkr-name {
+    margin-top: 10px;
+}
+
+#name-motto-container {
+    margin-top: -2%;
+}
+
+#motto-buffer {
+    width: 100%;
+    background-color: #ffce00;
+    border-style: solid;
+    border-color: black;
+}
