@@ -137,3 +137,7 @@ fieldset {
     border-style: solid;
     border-color: black;
 }
+
+.float-left {
+    float: left;
+}
