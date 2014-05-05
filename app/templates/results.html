@@ -1,0 +1,9 @@
+<!doctype html>
+<title>How you did:</title>
+{% if response_dict %}
+<ul>
+{% for provider in response_dict.itervalues() %}
+    <li> {{provider['displayName']}} | <img src="{{provider['icon']}}"> | {{provider.same}} </li>
+{% endfor %}
+
+{% endif %}
