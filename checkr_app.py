@@ -1,6 +1,6 @@
-from flask import Flask, request
+from flask import Flask, request, render_template
 from flask_sslify import SSLify
-import json
+
 from checkr import build_response
 
 app = Flask(__name__)
@@ -16,4 +16,4 @@ def check():
     response_dict = build_response(request.form['inputUsername'],
         request.form['inputPassword'],
         request.form['provider'])
-    return json.dumps(response_dict)
+    return render_template('results.html',response_dict=response_dict)
