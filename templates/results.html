@@ -1,9 +1,15 @@
-<!doctype html>
-<title>How you did:</title>
 {% if response_dict %}
-<ul>
+<table class="table">
 {% for provider in response_dict.itervalues() %}
-    <li> {{provider['displayName']}} | <img src="{{provider['icon']}}"> | {{provider.same}} </li>
+<tr
+{% if provider.same == True %} class="danger">
+{% else %} class="success">
+{% endif %}
+    <td><p class="lead"> {{provider.displayName}} </p> </td>
+    <td> <img src="{{provider.icon}}"> </td>
+    <td><p class="lead">{% if provider.same == True %}SAME{% else %} Safe!{% endif %}</p></td>
+</tr>
 {% endfor %}
+</table>
 
 {% endif %}
