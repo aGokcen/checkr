@@ -129,10 +129,6 @@ fieldset {
     height: 15%;
 }
 
-#results-container {
-
-}
-
 #header {
     background-color: #ffce00;
 }
@@ -153,5 +149,21 @@ fieldset {
 }
 
 .float-left {
+    float: left;
+}
+
+.entry_icon {
+    height: 50%;
+}
+
+.entry_text_1 {
+    font-size: 40px;
+    vertical-align: center;
+    float: right;
+}
+
+.entry_text_2 {
+    font-size: 40px;
+    vertical-align: center;
     float: left;
 }
