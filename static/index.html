@@ -43,8 +43,8 @@
                         <form action="/check" id="login-form" role="form" method="post">
                           <div class="form-group">
                             <label for="inputUsername">Email Username</label>
-                            <input type="text" class="form-control" name="inputUsername" placeholder="Email Username">
-                              <select name="provider">
+                            <input type="text" class="form-control" name="inputUsername" placeholder="Email Username" tabindex=1 autofocus />
+                              <select name="provider" tabindex=3>
                                   <option value="gmail">@gmail.com</option>
                                   <option value="yahoo">@yahoo.com</option>
                                   <option value="hotmail">@hotmail.com</option>
@@ -53,7 +53,7 @@
                           </div>
                           <div class="form-group">
                             <label for="inputPassword">Password</label>
-                            <input type="password" class="form-control" name="inputPassword" placeholder="Password">
+                            <input type="password" class="form-control" name="inputPassword" placeholder="Password" tabindex=2>
                           </div>
                           <button type="submit" class="btn btn-default">Submit</button>
                         </form>
